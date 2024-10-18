@@ -1,16 +1,29 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f855e6bc.css",
-    "main.js": "/portfolio/static/js/main.272016d6.js",
+    "main.css": "/portfolio/static/css/main.04c7d24b.css",
+    "main.js": "/portfolio/static/js/main.9306aed5.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
-    "static/media/logo.svg": "/portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/robo-lidarr.png": "/portfolio/static/media/robo-lidarr.fcbf6527e504edf1aa66.png",
+    "static/media/nyc-skyline.png": "/portfolio/static/media/nyc-skyline.5fe03daf705dfcea259b.png",
+    "static/media/cmc-manifold.png": "/portfolio/static/media/cmc-manifold.47ffc14e1619afc48418.png",
+    "static/media/om-doosan.png": "/portfolio/static/media/om-doosan.46e74fab3da445ac53c7.png",
+    "static/media/SAFE-demo.png": "/portfolio/static/media/SAFE-demo.a2de285002ee7ee386c4.png",
+    "static/media/sesma-proto.png": "/portfolio/static/media/sesma-proto.21b000619501bda94b5a.png",
+    "static/media/plate-FEA.png": "/portfolio/static/media/plate-FEA.93d908574359ad873814.png",
+    "static/media/robo-lidar.png": "/portfolio/static/media/robo-lidar.dfa3b2989232a7d921ac.png",
+    "static/media/sesma-gear.png": "/portfolio/static/media/sesma-gear.4a74b28b416131882a95.png",
+    "static/media/Robo-Matlab.png": "/portfolio/static/media/Robo-Matlab.16dcb143a8b3e655e893.png",
+    "static/media/purple.png": "/portfolio/static/media/purple.901ed17812b65fe139e7.png",
+    "static/media/spartificial-logo.png": "/portfolio/static/media/spartificial-logo.18bdbc85599278d743bf.png",
+    "static/media/doosan-logo.jpg": "/portfolio/static/media/doosan-logo.576d786d6c5f3347ba86.jpg",
+    "static/media/cmc-logo1.jpg": "/portfolio/static/media/cmc-logo1.8537d660c6a6f69c518d.jpg",
     "index.html": "/portfolio/index.html",
-    "main.f855e6bc.css.map": "/portfolio/static/css/main.f855e6bc.css.map",
-    "main.272016d6.js.map": "/portfolio/static/js/main.272016d6.js.map",
+    "main.04c7d24b.css.map": "/portfolio/static/css/main.04c7d24b.css.map",
+    "main.9306aed5.js.map": "/portfolio/static/js/main.9306aed5.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.272016d6.js"
+    "static/css/main.04c7d24b.css",
+    "static/js/main.9306aed5.js"
   ]
 }
