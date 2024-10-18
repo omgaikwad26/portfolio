@@ -1,29 +1,36 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.04c7d24b.css",
-    "main.js": "/portfolio/static/js/main.9306aed5.js",
+    "main.css": "/portfolio/static/css/main.b6506936.css",
+    "main.js": "/portfolio/static/js/main.47a72e92.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/autorobot.mp4": "/portfolio/static/media/autorobot.cce4e1dfcf780d95da6e.mp4",
     "static/media/robo-lidarr.png": "/portfolio/static/media/robo-lidarr.fcbf6527e504edf1aa66.png",
+    "static/media/cameracalibration.png": "/portfolio/static/media/cameracalibration.2a145ed147209b73ce10.png",
     "static/media/nyc-skyline.png": "/portfolio/static/media/nyc-skyline.5fe03daf705dfcea259b.png",
     "static/media/cmc-manifold.png": "/portfolio/static/media/cmc-manifold.47ffc14e1619afc48418.png",
     "static/media/om-doosan.png": "/portfolio/static/media/om-doosan.46e74fab3da445ac53c7.png",
+    "static/media/sesmagearbox.png": "/portfolio/static/media/sesmagearbox.497c3c33f27aa0d8033b.png",
+    "static/media/cmc-bracket.png": "/portfolio/static/media/cmc-bracket.28faa5f0407ef6f9fd89.png",
     "static/media/SAFE-demo.png": "/portfolio/static/media/SAFE-demo.a2de285002ee7ee386c4.png",
     "static/media/sesma-proto.png": "/portfolio/static/media/sesma-proto.21b000619501bda94b5a.png",
     "static/media/plate-FEA.png": "/portfolio/static/media/plate-FEA.93d908574359ad873814.png",
+    "static/media/simulink.png": "/portfolio/static/media/simulink.cec33f89b51728d2f50d.png",
     "static/media/robo-lidar.png": "/portfolio/static/media/robo-lidar.dfa3b2989232a7d921ac.png",
     "static/media/sesma-gear.png": "/portfolio/static/media/sesma-gear.4a74b28b416131882a95.png",
+    "static/media/robopic.png": "/portfolio/static/media/robopic.3724c1985aec31388369.png",
     "static/media/Robo-Matlab.png": "/portfolio/static/media/Robo-Matlab.16dcb143a8b3e655e893.png",
     "static/media/purple.png": "/portfolio/static/media/purple.901ed17812b65fe139e7.png",
     "static/media/spartificial-logo.png": "/portfolio/static/media/spartificial-logo.18bdbc85599278d743bf.png",
+    "static/media/OMG.pdf": "/portfolio/static/media/OMG.00517875e5bfc08e17c4.pdf",
     "static/media/doosan-logo.jpg": "/portfolio/static/media/doosan-logo.576d786d6c5f3347ba86.jpg",
     "static/media/cmc-logo1.jpg": "/portfolio/static/media/cmc-logo1.8537d660c6a6f69c518d.jpg",
     "index.html": "/portfolio/index.html",
-    "main.04c7d24b.css.map": "/portfolio/static/css/main.04c7d24b.css.map",
-    "main.9306aed5.js.map": "/portfolio/static/js/main.9306aed5.js.map",
+    "main.b6506936.css.map": "/portfolio/static/css/main.b6506936.css.map",
+    "main.47a72e92.js.map": "/portfolio/static/js/main.47a72e92.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.04c7d24b.css",
-    "static/js/main.9306aed5.js"
+    "static/css/main.b6506936.css",
+    "static/js/main.47a72e92.js"
   ]
 }
