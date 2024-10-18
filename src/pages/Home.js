@@ -10,7 +10,7 @@ import DoosanOm from '../assets/images/om-doosan.png';  // Example image import
 import Purple from '../assets/images/purple.png';  // Example image import
 import ProjectsData from './projectsData.js';
 
-const Home = () => {
+function Home() {
   return (
     <div>
       {/* Combined Name Section and Navbar */}
@@ -53,7 +53,7 @@ const Home = () => {
 
             <h2>Hi! I'm Om</h2>
             <p>
-              My current status at <b>Stevens Institute of Technology</b>: 
+            My current status at <b>Stevens Institute of Technology</b>: 
             </p>
             <button className="summary-button">Bachelor of Engineering - Mechanical Engineering (Expected May 2025)</button>
             <button className="summary-button">Master of Engineering - Applied Artificial Intelligence (Expected Dec 2025)</button>

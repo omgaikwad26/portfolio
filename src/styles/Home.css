@@ -124,7 +124,7 @@ html, body {
 }
 
 .summary-text h2, .summary-text h3 {
-  margin: 1px;
+  margin: 2.5px;
 }
 
 .summary-text h3, .summary-text p {
@@ -133,7 +133,7 @@ html, body {
 }
 
 .summary-text p, .summary-text a {
-  margin: 2.5px;
+  margin: 1px;
   font-size: 17px;
 
 }
@@ -177,6 +177,7 @@ html, body {
   margin-bottom: 20px; /* Add space between buttons */
   background-color: #cfcfcf !important; /* Button background color */
   border: 1px solid #ccc; /* Optional border */
+  border-radius: 5px;
   font-size: 16px; /* Adjust font size */
   color: rgb(37, 37, 36);
   cursor: pointer; /* Add pointer cursor on hover */
