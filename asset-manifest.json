@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.ac24b03f.css",
-    "main.js": "/portfolio/static/js/main.47a72e92.js",
+    "main.js": "/portfolio/static/js/main.3ffea250.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/autorobot.mp4": "/portfolio/static/media/autorobot.cce4e1dfcf780d95da6e.mp4",
     "static/media/robo-lidarr.png": "/portfolio/static/media/robo-lidarr.fcbf6527e504edf1aa66.png",
@@ -26,11 +26,11 @@
     "static/media/cmc-logo1.jpg": "/portfolio/static/media/cmc-logo1.8537d660c6a6f69c518d.jpg",
     "index.html": "/portfolio/index.html",
     "main.ac24b03f.css.map": "/portfolio/static/css/main.ac24b03f.css.map",
-    "main.47a72e92.js.map": "/portfolio/static/js/main.47a72e92.js.map",
+    "main.3ffea250.js.map": "/portfolio/static/js/main.3ffea250.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ac24b03f.css",
-    "static/js/main.47a72e92.js"
+    "static/js/main.3ffea250.js"
   ]
 }
