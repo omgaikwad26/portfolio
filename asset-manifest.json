@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4c8971c8.css",
-    "main.js": "/static/js/main.08a0acd0.js",
+    "main.js": "/static/js/main.2bdabb4f.js",
     "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
     "static/media/autorobot.mp4": "/static/media/autorobot.cce4e1dfcf780d95da6e.mp4",
     "static/media/robo-lidarr.png": "/static/media/robo-lidarr.fcbf6527e504edf1aa66.png",
@@ -19,6 +19,7 @@
     "static/media/sesma-gear.png": "/static/media/sesma-gear.4a74b28b416131882a95.png",
     "static/media/robopic.png": "/static/media/robopic.3724c1985aec31388369.png",
     "static/media/Robo-Matlab.png": "/static/media/Robo-Matlab.16dcb143a8b3e655e893.png",
+    "static/media/img-processing.png": "/static/media/img-processing.7b74e26f8b25ee37ec3c.png",
     "static/media/vehicle-dynamics-1.png": "/static/media/vehicle-dynamics-1.8b620b175447c284f25d.png",
     "static/media/purple.png": "/static/media/purple.901ed17812b65fe139e7.png",
     "static/media/spartificial-logo.png": "/static/media/spartificial-logo.18bdbc85599278d743bf.png",
@@ -28,11 +29,11 @@
     "static/media/om-profile.jpeg": "/static/media/om-profile.ad6efec75b6b7288ef6d.jpeg",
     "index.html": "/index.html",
     "main.4c8971c8.css.map": "/static/css/main.4c8971c8.css.map",
-    "main.08a0acd0.js.map": "/static/js/main.08a0acd0.js.map",
+    "main.2bdabb4f.js.map": "/static/js/main.2bdabb4f.js.map",
     "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4c8971c8.css",
-    "static/js/main.08a0acd0.js"
+    "static/js/main.2bdabb4f.js"
   ]
 }
