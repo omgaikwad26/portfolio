@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    box-sizing: border-box;
+    background-color: #fffefe;
+}
+
+.contact-section {
+    display: block;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    overflow: hidden;
+    background-image: url('../assets/images/doosan-logo.jpg'); /* Add your background image */
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent background repeat */
+    position: relative;
+}
+  
+
+/* Optional: Add a semi-transparent overlay to the entire section */
+.contact-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4); /* Dark overlay (optional) */
+    z-index: 0;
+}
+
+.overlay {
+z-index: 2; /* Ensures content stays above the background and overlay */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100%; /* Makes sure the content is centered vertically */
+}
+
+
+.contact-content {
+z-index: 1; /* Ensure the content is above the background and overlay */
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-start;
+width: 100%;
+padding-top: 10px;
+color: white; /* Change text color to white to stand out on dark background */
+}
+
+.contact-content h1 {
+font-size: 4rem; /* Adjust font size as needed */
+color: rgb(255, 255, 255);
+}
+
+/*-----------------------------------------------*/
+/* Navbar styling within the name section */
+.navbar {
+width: 100%;
+position: absolute;
+top: 0;
+left: 0;
+z-index: 1; /* Ensure the navbar stays above the background */
+display: flex;
+justify-content: center;
+background-color: transparent !important;
+}
+
+.navbar-list {
+list-style: none;
+display: flex;
+gap: 30px; /* Adds spacing between the navbar items */
+}
+
+.navbar-item a {
+color: white; /* Make the links white */
+text-decoration: none;
+font-size: 16px;
+}
+
+.navbar-item a:hover {
+color: #ddd; /* Slight color change on hover */
+}
+
+
+/*---------------------------------------------------------*/
+
+.contact {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns for text and media */
+    direction: ltr ;
+    gap: 25px;
+    margin-bottom: 40px;
+  }
+
+.contact-form h2, .contact-info h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    direction: ltr;
+    text-align: center;
+    color:rgba(5, 5, 5, 0.4);
+}
+
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    direction: ltr;
+}
+
+.contact-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: black;
+}
+
+.contact-form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+.contact-form textarea {
+    padding: 10px;    
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 220px;
+}
+
+
+.contact-form button {
+    background-color: #ff3366;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact-form button:hover {
+    background-color: #ff0055;
+}
+
+.contact-info {
+    text-align: left;
+}
+
+.contact-icons {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    direction: ltr;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-icons img {
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.contact-icons img:hover {
+    transform: scale(1.1);
+}
+
+.email-info {
+    font-size: 1.2rem;
+    direction: ltr;
+    text-align: center;
+
+}
+
+.email-info h1 {
+    font-size: 1.75rem;
+    font-weight: bold;
+    direction: ltr;
+    color:rgba(5, 5, 5, 0.4);
+
+}
+
+.email-info p {
+    font-size: 1rem;
+    direction: ltr;
+
+    color:black;
+}
+
+
+.email-info a {
+    color: #000;
+    font-size: 1rem;
+
+}
+
+.email-info a:hover {
+    text-decoration: underline;
+}
+
+/* -------------------------home footer----------------------- */
+.home-footer {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .cta-button {
+    background-color: #333;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .cta-button:hover {
+    background-color: #555;
+  }
+  

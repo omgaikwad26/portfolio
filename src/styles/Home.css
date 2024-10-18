@@ -1,0 +1,329 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+/* Ensure full width of html and body */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+.name-section {
+  display: block;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  overflow: hidden;
+  background-image: url('../assets/images/nyc-skyline.png'); /* Add your background image */
+  background-size: cover; /* Ensures the image covers the entire section */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent background repeat */
+  position: relative;
+  height: 400px; /* Adjust the height as needed */
+}
+
+/* Navbar styling within the name section */
+.navbar {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1; /* Ensure the navbar stays above the background */
+  display: flex;
+  justify-content: center;
+  background-color: transparent !important;
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+  gap: 30px; /* Adds spacing between the navbar items */
+}
+
+.navbar-item a {
+  color: white; /* Make the links white */
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar-item a:hover {
+  color: #ddd; /* Slight color change on hover */
+}
+
+/* Optional: Add a semi-transparent overlay to the entire section */
+.name-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4); /* Dark overlay (optional) */
+  z-index: 0;
+}
+
+.overlay {
+  z-index: 2; /* Ensures content stays above the background and overlay */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Makes sure the content is centered vertically */
+}
+
+.name-content {
+  z-index: 1; /* Ensure the content is above the background and overlay */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  margin-top: 40px;
+  color: white; /* Change text color to white to stand out on dark background */
+}
+
+.name-content h1 {
+  font-size: 2rem; /* Adjust font size as needed */
+  color: rgb(28, 26, 26);
+
+}
+
+.name-content h2 {
+  font-size: 4rem;
+  color: rgb(255, 255, 255);
+  margin-top: 10px;
+  margin-bottom: 5%;
+}
+
+/*------------------------------------Summary------------------*/
+.summary-details {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.summary-details-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two columns for text and media */
+  direction: rtl;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.summary-text {
+  display: flex;
+  flex-direction: column;
+  color: #333;
+  padding: 5px;
+  direction: ltr;
+  font-family: 'Roboto', sans-serif;
+}
+
+.summary-text h2, .summary-text h3 {
+  margin: 1px;
+}
+
+.summary-text h3, .summary-text p {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.summary-text p, .summary-text a {
+  margin: 2.5px;
+  font-size: 17px;
+
+}
+
+.summary-text a {
+  margin: 2.5px;
+  font-size: 17px !important;
+  color: #333 !important;
+}
+
+.contact-info a:hover {
+  text-decoration: underline; /* Underline the email on hover */
+  color: #000000; /* Change the color on hover */
+}
+
+
+.summary-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.summary-image, .summary-full-width-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.summary-full-width-image {
+  margin-top: 40px;
+}
+
+
+/*----------------------------------------------------*/
+.summary-button {
+  text-align: left; /* Align the text to the left */
+  display: block; /* Make the button take the full width */
+  width: auto; /* Optional: Ensure the button spans the full width */
+  padding: 5px 20px; /* Add padding for a better look */
+  margin-left: 0%;
+  margin-bottom: 20px; /* Add space between buttons */
+  background-color: #cfcfcf !important; /* Button background color */
+  border: 1px solid #ccc; /* Optional border */
+  font-size: 16px; /* Adjust font size */
+  color: rgb(37, 37, 36);
+  cursor: pointer; /* Add pointer cursor on hover */
+}
+
+.summary-button:hover {
+  background-color: #ffffff; /* Lighter background color on hover */
+  
+}
+
+/*----------------------------------------------------*/
+/* About Me button container at the bottom */
+.aboutme-button-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.aboutme-button {
+  border: 0;
+  background: #b1b1b1 !important;
+  color: rgb(255, 253, 253) ;
+  padding: 8px 12px;
+  margin-right: 3px;
+  margin-bottom: 3px;
+  font-size: 18px;
+  text-decoration: none;
+  outline: #000000 !important;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.aboutme-button:hover {
+  text-decoration: none;
+  background: #ffffff;
+  color: rgb(255, 253, 253) !important;
+  opacity: 0.9;
+}
+
+/* -------------------------home footer----------------------- */
+.home-footer {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.cta-button {
+  background-color: #333;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.cta-button:hover {
+  background-color: #555;
+}
+
+
+/* ! >> Variables and Mixins
+==============  =========================================== */
+.elpt-work {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.elpt-work-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centers the items horizontally */
+  gap: 20px; /* Adds space between the items */
+}
+
+/* Three images per row on large screens (992px and above) */
+@media (min-width: 992px) {
+  .elpt-work-content .work-item-wrapper {
+    width: calc(33.33% - 20px); /* Three items per row */
+  }
+}
+
+/* Two images per row on medium screens (768px and above) */
+@media (min-width: 768px) {
+  .elpt-work-content .work-item-wrapper {
+    width: calc(33.33% - 20px); /* Three items per row */
+  }
+}
+
+/* One image per row on small screens (below 768px) */
+@media (max-width: 767px) {
+  .elpt-work-content .work-item-wrapper {
+    width: calc(100% - 20px); /* One item per row */
+  }
+}
+
+.elpt-work-content .work-item-wrapper img {
+  width: 100%;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  background: #f4f4f4;
+}
+
+.elpt-work-content .work-item {
+  display: block;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+}
+
+.elpt-work-content .work-item-infos-wrapper {
+  position: absolute;
+  transform: translateY(40%);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  color: #ffffff;
+  padding: 50% 0;
+  text-align: center;
+  z-index: 9;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.elpt-work-content .work-item:hover .work-item-infos-wrapper {
+  opacity: 0.95;
+  transform: translateY(0);
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+}
+
+.elpt-work-content .work-item-infos {
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.elpt-work-content .work-item:hover .work-item-infos {
+  opacity: 1 !important;
+  transform: translateY(0px) !important;
+  -webkit-transform: translateY(0px) !important;
+  -moz-transform: translateY(0px) !important;
+}

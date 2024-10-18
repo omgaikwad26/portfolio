@@ -1,0 +1,43 @@
+.footer {
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 20px 0;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between; /* Spread out items */
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-item {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between icon and text */
+  }
+  
+  .footer-item img.footer-icon {
+    width: 30px; /* Size of the LinkedIn icon */
+    height: auto;
+    align-items: center;
+  }
+  
+  .footer-item a {
+    text-decoration: none;
+    color: #000; /* Black text for links */
+    font-size: 18px;
+  }
+  
+  .footer-item a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-item span {
+    padding: 10px;
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,45 @@
+/* src/styles/Navbar.css */
+.navbar {
+    width: 100%;
+    background-color: #333;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 15px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-item {
+    margin: 0 25px;
+  }
+  
+  .navbar-item a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem !important;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-item a:hover {
+    color: #1e90ff;  /* Highlight color on hover */
+  }
+  
+  .navbar-item a.active {
+    color: #f0f4f8;  /* Highlight for the active page */
+  }
+  
+  /* Add padding to the content to avoid it being hidden under the fixed navbar */
+  .home-container {
+    padding-top: 80px;  /* Ensures the content doesn't go under the navbar */
+  }
+  
