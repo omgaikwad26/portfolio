@@ -8,7 +8,7 @@ import DoosanOm from '../assets/images/om-doosan.png';  // Example image import
 import Purple from '../assets/images/purple.png';  // Example image import
 import Camera from '../assets/images/cameracalibration.png';  // Example image import
 
-const ProofLabDetails = () => {
+function ProofLabDetails() {
   return (
     <div>
       <section className="name-section">

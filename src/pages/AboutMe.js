@@ -5,6 +5,7 @@ import '../styles/AboutMe.css'; // Ensure to include your CSS for styling
 import Footer from '../components/Footer.js'
 
 import Purple from '../assets/images/purple.png';  // Example image import
+import OmProfile from '../assets/images/om-profile.jpeg';
 
 const Home = () => {
   return (
@@ -48,7 +49,7 @@ const Home = () => {
             {/* Image section */}
           <div className="summary-media">
             <img
-              src={Purple} // Replace with actual image path
+              src={OmProfile} // Replace with actual image path
               alt="Component design in Autodesk Inventor"
               className="summary-image"
             />
@@ -56,16 +57,19 @@ const Home = () => {
 
           {/* Text section */}
           <div className="summary-text">
-            <p>
-            My passion for engineering started with my undying love for the universe. As a kid, I was obsessed with the stories of space exploration and space missions that fueled my interest in maths and physics. 
-            That curiosity led me down the path of mechanical engineering and robotics.
-            </p>
-            <p>
-            Besides academics, I love working out and running and traveling. I’ve always found that staying active helps keep my mind sharp and focused. 
-            Running and working out helps me to stay disciplined, and challenge myself and carry these values that carry over to other aspects of my life. 
-            </p>
+          <p>
 
-            <p>You can learn more about my academic journey in my resume: </p>
+            My passion for engineering developed from my interest in learning about the universe. As a kid, I was fascinated by stories of space exploration and missions, which fueled my love for math and physics. 
+            That curiosity led me down the path of mechanical engineering and robotics.
+          </p>
+          <p>
+            Besides academics, I love working out, running, and traveling. I’ve always found that staying active helps keep my mind sharp and focused. 
+            Running and working out allow me to stay disciplined and challenge myself, values that carry over to other aspects of my life.
+          </p>
+          <p>
+            You can learn more about my academic journey in my resume:
+          </p>
+
 
             {/* Button to go back to Projects */}
             <section className="aboutme-button-container">

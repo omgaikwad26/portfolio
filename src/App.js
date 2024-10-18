@@ -11,10 +11,12 @@ import SafeDetails from './project-pages/safe';
 import ProofLabDetails from './project-pages/proofLab-internship';
 import CMCDetails from './project-pages/cmc-internship';
 import MatlabRobot from './project-pages/matlab-robot'
-import SparDetails from './project-pages/spartificial-internship';
-import FEADetails from './project-pages/FEA-carbon';
+
+import FEADetails from './project-pages/FEAcarbon';
 import AutoRobot from './project-pages/autonomous-robot';
 import VehicleDetails from './project-pages/vehicle-dynamics';
+
+
 
 const App = () => {
   return (
@@ -27,8 +29,8 @@ const App = () => {
         <Route path="/projects/proofLab-internship" element={<ProofLabDetails />} />
         <Route path="/projects/cmc-internship" element={<CMCDetails />} />
         <Route path="/projects/matlab-robot" element={<MatlabRobot />} />
-        <Route path="/projects/spartifical-internship" element={<SparDetails />} />
-        <Route path="/projects/FEA-Carbon" element={<FEADetails />} />
+
+        <Route path="/projects/FEACarbon" element={<FEADetails />} />
         <Route path="/projects/autonomous-robot" element={<AutoRobot />} />
         <Route path="/projects/vehicle-dynamics" element={<VehicleDetails />} />
         <Route path="/resume" element={<Resume />} />

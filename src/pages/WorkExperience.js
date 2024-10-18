@@ -1,14 +1,6 @@
-import Purple from '../assets/images/purple.png';  // Example image import
-import sesmaGear from '../assets/images/sesma-gear.png';  // Example image import
-import sesmaProto from '../assets/images/sesma-proto.png';  // Example image import
-import safeDemo from '../assets/images/SAFE-demo.png';  // Example image import
-import plateFEA from '../assets/images/plate-FEA.png';  // Example image import
-import roboMat from '../assets/images/Robo-Matlab.png';  // Example image import
-import roboLidar from '../assets/images/robo-lidar.png';  // Example image import
-import roboLidar2 from '../assets/images/robo-lidarr.png';  // Example image import
+
 import cmcLogo from '../assets/images/cmc-logo1.jpg';  // Example image import
 import Doosan from '../assets/images/doosan-logo.jpg';  // Example image import
-import MoonSurface from '../assets/images/moon-surface.jpeg';  // Example image import
 import SpartLogo from '../assets/images/spartificial-logo.png';  // Example image import
 
 
@@ -33,8 +25,6 @@ const WorkData = [
     link: '/projects/spartificial-internship',
   }
 
-
-  // Add more projects as needed
 ];
 
 export default WorkData;

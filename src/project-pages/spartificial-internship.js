@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';  // Import Link for navigation
 import '../styles/Projects.css'; // Assuming your CSS is in this path
 import '../styles/projectDetails.css';
 
-import Purple from '../assets/images/purple.png';  // Example image import
+import imgpr from '../assets/images/img-processing.png';  // Example image import
+
 
 const SparDetails = () => {
   return (
@@ -39,6 +40,7 @@ const SparDetails = () => {
       <div className="project-details">
         {/* First section: Text on the left, image on the right */}
         <div className="project-details-grid">
+
           {/* Text section */}
           <div className="project-text">
             <h2>Spartificial | AI Intern </h2>
@@ -60,35 +62,13 @@ const SparDetails = () => {
                 <li>As team lead, delegated tasks, coordinated testing, and oversaw the final presentation.</li>
               </ul>
             </p>
-          </div>
 
-          {/* Image section */}
-          <div className="project-media">
-            <img
-              src={Purple} // Replace with actual image path
-              alt="Moon surface analysis for landing zones"
-              className="project-image"
-            />
-          </div>
-        </div>
 
-        {/* Second section: Image on the left, text on the right */}
-        <div className="project-details-grid reverse">
-          {/* Image section */}
-          <div className="project-media">
-            <img
-              src={Purple} // Replace with actual image path
-              alt="Lunar rover exploration"
-              className="project-image"
-            />
-          </div>
-
-          {/* Text section */}
-          <div className="project-text">
             <h3>The results:</h3>
-            <p>
-              Our algorithm achieved a <b>93% accuracy rating</b>, which was presented to a panel of astrophysicists and deemed highly successful for potential use in space missions.
-            </p>
+              <p>
+                Our algorithm achieved a <b>93% accuracy rating</b>, which was presented to a panel of astrophysicists and deemed highly successful for potential use in space missions.
+              </p>
+
             <div className="skill-section">
               <h3>SKILLS</h3>
               <div className="skill-section-filter">
@@ -98,19 +78,18 @@ const SparDetails = () => {
                 <button className={`skill-filter-item`}>AI Image Processing</button>
               </div>
             </div>
-          </div>  
-        </div>
 
-      {/* Centered iframe at the bottom */}
-      <section className="iframe-container">
-        <iframe 
-          src="https://www.youtube.com/watch?v=Vfsl8G8Fjmg" 
-          title="YouTube video player" 
-          frameBorder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-          allowFullScreen
-        ></iframe>
-      </section>
+          </div>
+
+          {/* Image section */}
+          <div className="project-media">
+            <img
+              src={imgpr} // Replace with actual image path
+              alt="Moon surface analysis for landing zones"
+              className="project-image"
+            />
+          </div>
+          </div>
 
       {/* Button to go back to Projects */}
       <section className="back-button-container">
@@ -125,3 +104,13 @@ const SparDetails = () => {
 };
 
 export default SparDetails;
+
+
+
+
+
+
+
+
+
+

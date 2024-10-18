@@ -7,8 +7,6 @@ import Footer from '../components/Footer.js'
 
 import DoosanOm from '../assets/images/om-doosan.png';  // Example image import
 
-import Purple from '../assets/images/purple.png';  // Example image import
-import ProjectsData from './projectsData.js';
 
 function Home() {
   return (

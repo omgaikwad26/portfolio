@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';  // Import Link for navigation
 import '../styles/Projects.css'; // Assuming your CSS is in this path
 import '../styles/projectDetails.css';
 
-import safeDemo from '../assets/images/SAFE-demo.png';
+import plateFEA from '../assets/images/plate-FEA.png';  // Example image import
 
 
 
-const SafeDetails = () => {
+const FEADetails = () => {
   return (
     <div>
       <section className="name-section">
@@ -43,54 +43,55 @@ const SafeDetails = () => {
         <div className="project-details-grid">
           {/* Text section */}
           <div className="project-text">
-            <h2>Stevens Ankle-Foot Electromechanical (SAFE) Orthosis | Research Assistant</h2>
-            <h2>May 2024 - Present</h2> 
-            <p>
-              As part of the Stevens ProOF Lab team, I am contributing to the development of a 
-              powered ankle-foot orthosis (AFO) designed to assist patients with mobility issues.
-            </p>
+            <h2>Steel Plate Optimization and Finite Element Analysis (FEA) | ME-345 Modeling and Simulation</h2> 
+            <h2>| May 2024</h2>
 
             <h3>What I did:</h3>
             <p>
-            Develop detailed 3D CAD models from leg scans and contributed to the manufacturing of the AFO prototype. 
-            I was also involved in torque testing and structural analysis to ensure the prototype’s durability and functionality.
+              <ul>
+                <li>I modeled the plate in SolidWorks, conducted stress and displacement simulations, and optimized the design to reduce the weight. I also performed hand calculations to verify 
+                  the maximum displacement and compared them with the simulation results.</li>              </ul>
             </p>
 
             <h3>How?</h3>
             <p>
-            Using Artec 3D software, I processed leg scans into precise 3D models, 
-            which were then used for 3D printing the components of the prototype. 
-            I collaborated on performing torque testing and conducting structural analysis 
-            to confirm the robustness and efficiency of the design.
+              <ul>
+                <li>I first created a detailed model of the plate in SolidWorks and ran a static analysis to determine the von Mises stress and displacement under a 1000 lbf load</li>
+                <li>I optimized the design by adjusting the dimensions of the triangular cutouts, running multiple design studies to minimize the plate’s weight</li>
+                <li>Additionally, I conducted hand calculations to validate the maximum displacement and performed comparative analysis using Creo Parametric for further verification.
+                </li>
+              </ul>
             </p>
 
             <h3>Results:</h3>
             <p>
-              Our prototype demonstrated improved durability and operational efficiency in preliminary tests. 
-              We are currently refining the design to further optimize performance for upcoming clinical trials.
+             <ul>
+                <li>The optimization process reduced the plate’s weight by 22.73%, while still maintaining a factor of safety above 2.</li>
+                <li>Additional optimizations with two more cutouts further reduced the weight, and material optimization identified titanium as the best material for further weight reduction, achieving a weight of 9.61 lbs with a factor of safety of 10.12.</li>
+              </ul>
             </p>
 
             <div className="skill-section">
               <h3>SKILLS</h3>
               <div className="skill-section-filter">
-                <button className={`skill-filter-item`}>Artec 3D</button>
-                <button className={`skill-filter-item`}>ADDITTIVE MANUFACTURING</button>
-                <button className={`skill-filter-item`}>3D MODELING</button>
-
+                <button className={`skill-filter-item`}>SOLIDWORKS</button>
+                <button className={`skill-filter-item`}>FINITE ELEMENT ANALYSIS</button>
+                <button className={`skill-filter-item`}>CREO</button>
               </div>
             </div>
+          </div>  
 
-          </div>
 
           {/* Image section */}
           <div className="project-media">
             <img
-              src={safeDemo} // Replace with actual image path
+              src={plateFEA} // Replace with actual image path
               alt="Component design in Autodesk Inventor"
               className="project-image"
             />
           </div>
         </div>
+        
 
       {/* Button to go back to Projects */}
       <section className="back-button-container">
@@ -104,4 +105,4 @@ const SafeDetails = () => {
   );
 };
 
-export default SafeDetails;
+export default FEADetails;

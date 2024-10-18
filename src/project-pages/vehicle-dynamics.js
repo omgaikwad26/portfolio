@@ -4,8 +4,7 @@ import '../styles/Projects.css'; // Assuming your CSS is in this path
 import '../styles/projectDetails.css';
 
 
-import cmcManifold from '../assets/images/cmc-manifold.png';
-import cmcBracket from '../assets/images/cmc-bracket.png';  // Example image import
+import VehicleDynamics from '../assets/images/vehicle-dynamics-1.png'
 
 
 const VehicleDetails = () => {
@@ -67,32 +66,6 @@ const VehicleDetails = () => {
               </ul>
             </p>
 
-          </div>
-
-          {/* Image section */}
-          <div className="project-media">
-            <img
-              src={cmcManifold} // Replace with actual image path
-              alt="Component design in Autodesk Inventor"
-              className="project-image"
-            />
-          </div>
-        </div>
-
-        {/* Second section: Image on the left, text on the right */}
-        <div className="project-details-grid reverse">
-          {/* Image section */}
-          <div className="project-media">
-            <img
-              src={cmcBracket} // Replace with actual image path
-              alt="Hydraulic system optimization"
-              className="project-image"
-            />
-          </div>
-
-          {/* Text section */}
-          <div className="project-text">
-
             <h3>Results:</h3>
             <p>
             The resulting model successfully simulated the car’s dynamic responses under various driving conditions. The state-space model allowed for analysis of the car's behavior, including stability during turning and the impact of steering angles on cornering. 
@@ -105,8 +78,17 @@ const VehicleDetails = () => {
                 <button className={`skill-filter-item`}>SIMULINK</button>
               </div>
             </div>
-          </div>  
-        
+
+          </div>
+
+          {/* Image section */}
+          <div className="project-media">
+            <img
+              src={VehicleDynamics} // Replace with actual image path
+              alt="Component design in Autodesk Inventor"
+              className="project-image"
+            />
+          </div>
         </div>
 
 

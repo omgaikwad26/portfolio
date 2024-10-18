@@ -5,7 +5,6 @@ import projectsData from './projectsData';
 
 import Footer from '../components/Footer';
 
-
 const Projects = () => {
   const [selectedCategory, setSelectedCategory] = useState('All');
 
@@ -80,7 +79,8 @@ const Projects = () => {
         <div className="elpt-portfolio-content elpt-portfolio-columns-3 hover1"> {/* Using hover effect */}
           {filteredProjects.map((project, index) => (
             <div className="portfolio-item-wrapper" key={index}>
-              <a href={project.link} className="portfolio-item" target="_blank" rel="noopener noreferrer">
+              {/* Use Link for internal navigation */}
+              <Link to={project.link} className="portfolio-item">
                 {/* Image */}
                 <img src={project.imageUrl} alt={project.title} />
                 
@@ -92,7 +92,7 @@ const Projects = () => {
                     <span className="portfolio-item-category">{project.category.join(', ')}</span> {/* Corrected category */}
                   </div>
                 </div>
-              </a>
+              </Link>
             </div>
           ))}
         </div>
@@ -100,7 +100,7 @@ const Projects = () => {
 
       <Footer />
 
-  </div>
+    </div>
   );
 };
 

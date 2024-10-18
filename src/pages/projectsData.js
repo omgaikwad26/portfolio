@@ -10,6 +10,7 @@ import cmcManifold from '../assets/images/cmc-manifold.png';  // Example image i
 import MoonSurface from '../assets/images/moon-surface.jpeg';  // Example image import
 import SpartLogo from '../assets/images/spartificial-logo.png';  // Example image import
 import Doosan from '../assets/images/doosan-logo.jpg';  // Example image import
+import VehicleDynamics from '../assets/images/vehicle-dynamics-1.png'
 
 
 
@@ -46,13 +47,13 @@ const ProjectsData = [
     title: 'FEA and Structural Analysis of a Carbon-Steel Plate',
     description: 'Spring 2024',
     imageUrl: plateFEA,
-    category: ['All', 'Student Teams'],
-    link: '/projects/FEA-carbon',
+    category: ['All', 'Personal'],
+    link: '/projects/FEAcarbon',
   },
   {
     title: 'Modeling Vehicle Dynamics using MATLAB',
-    description: 'Spring 2022',
-    imageUrl: Purple,
+    description: 'Aug 2023 - Oct 2023',
+    imageUrl: VehicleDynamics,
     category: ['All', 'Personal'],
     link: '/projects/vehicle-dynamics',
   },
