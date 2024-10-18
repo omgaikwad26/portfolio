@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ac24b03f.css",
-    "main.js": "/portfolio/static/js/main.32df341d.js",
+    "main.css": "/portfolio/static/css/main.6a41e901.css",
+    "main.js": "/portfolio/static/js/main.f7282563.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/autorobot.mp4": "/portfolio/static/media/autorobot.cce4e1dfcf780d95da6e.mp4",
     "static/media/robo-lidarr.png": "/portfolio/static/media/robo-lidarr.fcbf6527e504edf1aa66.png",
@@ -27,12 +27,12 @@
     "static/media/cmc-logo1.jpg": "/portfolio/static/media/cmc-logo1.8537d660c6a6f69c518d.jpg",
     "static/media/om-profile.jpeg": "/portfolio/static/media/om-profile.ad6efec75b6b7288ef6d.jpeg",
     "index.html": "/portfolio/index.html",
-    "main.ac24b03f.css.map": "/portfolio/static/css/main.ac24b03f.css.map",
-    "main.32df341d.js.map": "/portfolio/static/js/main.32df341d.js.map",
+    "main.6a41e901.css.map": "/portfolio/static/css/main.6a41e901.css.map",
+    "main.f7282563.js.map": "/portfolio/static/js/main.f7282563.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac24b03f.css",
-    "static/js/main.32df341d.js"
+    "static/css/main.6a41e901.css",
+    "static/js/main.f7282563.js"
   ]
 }
