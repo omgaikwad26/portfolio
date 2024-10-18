@@ -99,25 +99,15 @@ const ProofLabDetails = () => {
             <div className="skill-section">
               <h3>SKILLS</h3>
               <div className="skill-section-filter">
-                <button className={`skill-filter-item`}>Python</button>
-                <button className={`skill-filter-item`}>OpenCV</button>
-                <button className={`skill-filter-item`}>ROS 2.0</button>
-                <button className={`skill-filter-item`}>MATLAB</button>
+              <button className="skill-filter-item">Python</button>
+              <button className="skill-filter-item">OpenCV</button>
+              <button className="skill-filter-item">Computer Vision</button>
+              <button className="skill-filter-item">DOOSAN H2125 COBOT</button>
               </div>
             </div>
           </div>  
         </div>
 
-      {/* Centered iframe at the bottom */}
-      <section className="iframe-container">
-        <iframe 
-          src="https://www.youtube.com/watch?v=Vfsl8G8Fjmg" 
-          title="YouTube video player" 
-          frameBorder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-          allowFullScreen
-        ></iframe>
-      </section>
 
       {/* Button to go back to Projects */}
       <section className="back-button-container">
