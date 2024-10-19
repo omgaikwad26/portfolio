@@ -54,7 +54,7 @@ const SESMAProject = () => {
 
             <h3>My role:</h3>
             <p>
-              <li>Develop prgrams to integrate sensors (force-sensing resistors, barometer, rotary encoder) for real-time monitoring of the user's position, 
+              <li>Develop algorithms to integrate sensors (force-sensing resistors, accelerometer, rotary encoder) for real-time monitoring of the user's position, 
               optimizing motor control and power usage</li> 
               <li>Develop control algorithms in C/C++ that interpret sensor data and dynamically adjust motor assistance during the sit-to-stand motion</li>
             </p>

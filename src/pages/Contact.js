@@ -82,7 +82,7 @@ const Contact = () => {
 
         {/* Back Home Button */}
         <section className="home-footer">
-          <Link to="/home" className="cta-button">Home</Link>
+          <Link to="/" className="cta-button">Home</Link>
         </section>
       </div>
 
