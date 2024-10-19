@@ -8,13 +8,13 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-item">
-          <Link href="https://www.linkedin.com/in/omgaikwad" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/omgaikwad" target="_blank" rel="noopener noreferrer">
             <img src={linkedinLogo} alt="LinkedIn" className="footer-icon" />
             <span>LinkedIn</span>
-          </Link>
+          </a>
         </div>
         <div className="footer-item">
-          <Link href="mailto:your-email@gmail.com">ogaikwad@stevens.edu</Link>
+          <a href="mailto:ogaikwad@stevens.edu">ogaikwad@stevens.edu</a>
         </div>
       </div>
     </footer>

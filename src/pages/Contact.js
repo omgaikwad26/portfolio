@@ -62,18 +62,18 @@ const Contact = () => {
           <div className="contact-form">
             <h2>CONTACT INFO</h2>
             <div className="contact-icons">
-              <Link href="https://www.linkedin.com/in/omgaikwad/" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/omgaikwad/" target="_blank" rel="noopener noreferrer">
                 <img src={Linkedin} alt="LinkedIn" />
-              </Link>
+              </a>
             </div>
 
             <div className="email-info">
               <h1>EMAIL ME</h1>
               <p>Personal: {' '}
-              <Link href="mailto:omgaikwad222@gmail.com">omgaikwad222@gmail.com </Link>
+              <a href="mailto:omgaikwad222@gmail.com">omgaikwad222@gmail.com </a>
               </p>
               <p>School: {' '}
-              <Link href="mailto:ogaikwad@stevens.edu">ogaikwad@stevens.edu</Link>
+              <a href="mailto:ogaikwad@stevens.edu">ogaikwad@stevens.edu</a>
               </p>
 
             </div>
