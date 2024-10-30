@@ -50,7 +50,7 @@ function ProofLabDetails() {
             <h3>What I did:</h3>
             <p>
               <ul>
-                <li>Developed a path planning algorithm and isoparametric mapping for DOOSAN H2125 robot workspace.</li>
+                <li>Developed a path planning algorithm and isoparametric mapping for DOOSAN H2515 robot workspace.</li>
                 <li>Programmed the path planning algorithm in <b>Python</b> for automatic fiber placement on a 2D surface.</li>
                 <li>Built a virtual testing environment to test the robot's functionality before deployment.</li>
               </ul>
@@ -60,7 +60,7 @@ function ProofLabDetails() {
             <p>
               <ul>
                 <li>Used <b>OpenCV</b> and <b>Computer Vision</b> to map the robot's workspace.</li>
-                <li>Created a virtual testing environment for the DOOSAN H2125 collaborative robot using MATLAB and ROS 2.0.</li>
+                <li>Created a virtual testing environment for the DOOSAN H2515 collaborative robot using MATLAB and ROS 2.0.</li>
               </ul>
             </p>
           </div>

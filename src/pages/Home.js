@@ -93,7 +93,7 @@ function Home() {
           <div className="elpt-work-content hover">
             {WorkData.map((project, index) => (
               <div className="work-item-wrapper" key={index}>
-                <a href={project.link} className="work-item" target="_blank" rel="noopener noreferrer">
+                <Link to={project.link} className="work-item" target="_blank" rel="noopener noreferrer">
                   {/* Image */}
                   <img src={project.imageUrl} alt={project.title} />
   
@@ -102,12 +102,11 @@ function Home() {
                     <h3 className=".work-item-infos-wrapper">{project.title}</h3>
                     <h3 className=".work-item-infos-wrapper">{project.description}</h3>
                   </div>
-                </a>
+                </Link>
               </div>
             ))}
           </div>
         </div>
-
       {/* Footer with Call-to-Action */}
       <section className="home-footer">
         <Link to="/projects" className="cta-button">Explore My Projects</Link>
