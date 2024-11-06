@@ -74,8 +74,8 @@ const SafeDetails = () => {
               <h3>SKILLS</h3>
               <div className="skill-section-filter">
                 <button className={`skill-filter-item`}>Artec 3D</button>
-                <button className={`skill-filter-item`}>ADDITTIVE MANUFACTURING</button>
-                <button className={`skill-filter-item`}>3D MODELING</button>
+                <button className={`skill-filter-item`}>Additive Manufacturing</button>
+                <button className={`skill-filter-item`}>3D Modeling</button>
 
               </div>
             </div>

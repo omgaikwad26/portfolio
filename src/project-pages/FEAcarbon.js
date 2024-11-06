@@ -74,9 +74,9 @@ const FEADetails = () => {
             <div className="skill-section">
               <h3>SKILLS</h3>
               <div className="skill-section-filter">
-                <button className={`skill-filter-item`}>SOLIDWORKS</button>
-                <button className={`skill-filter-item`}>FINITE ELEMENT ANALYSIS</button>
-                <button className={`skill-filter-item`}>CREO</button>
+                <button className={`skill-filter-item`}>SolidWorks</button>
+                <button className={`skill-filter-item`}>Finite Element Analysis (FEA)</button>
+                <button className={`skill-filter-item`}>Creo</button>
               </div>
             </div>
           </div>  

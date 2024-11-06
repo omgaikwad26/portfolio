@@ -99,8 +99,8 @@ const MatlabRobot = () => {
               <h3>SKILLS</h3>
               <div className="skill-section-filter">
                 <button className={`skill-filter-item`}>MATLAB</button>
-                <button className={`skill-filter-item`}>PYTHON Programming</button>
-                <button className={`skill-filter-item`}>Simulink</button>
+                <button className={`skill-filter-item`}>Python Programming</button>
+                <button className={`skill-filter-item`}>SIMULINK</button>
 
               </div>
             </div>

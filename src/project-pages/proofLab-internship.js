@@ -102,7 +102,7 @@ function ProofLabDetails() {
               <button className="skill-filter-item">Python</button>
               <button className="skill-filter-item">OpenCV</button>
               <button className="skill-filter-item">Computer Vision</button>
-              <button className="skill-filter-item">DOOSAN H2125 COBOT</button>
+              <button className="skill-filter-item">Doosan H2515 Cobot</button>
               </div>
             </div>
           </div>  

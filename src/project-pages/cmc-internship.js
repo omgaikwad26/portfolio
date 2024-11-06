@@ -96,10 +96,10 @@ const CMCDetails = () => {
             <div className="skill-section">
               <h3>SKILLS</h3>
               <div className="skill-section-filter">
-                <button className={`skill-filter-item`}>FINITE ELEMENT ANALYSIS</button>
-                <button className={`skill-filter-item`}>AUTODESK INVENTOR</button>
+                <button className={`skill-filter-item`}>Finite Element Analysis (FEA)</button>
+                <button className={`skill-filter-item`}>Autodesk INVENTOR</button>
                 <button className={`skill-filter-item`}>AutoCAD</button>
-                <button className={`skill-filter-item`}>CONTROL SYSTEMS (HYDRAULICS)</button>
+                <button className={`skill-filter-item`}>Control Systems (Hydraulics)</button>
                 <button className={`skill-filter-item`}>GD&T</button>
 
               </div>
@@ -108,6 +108,7 @@ const CMCDetails = () => {
         
         </div>
 
+      /*
       {/* Centered iframe at the bottom */}
       <section className="iframe-container">
         <iframe 
@@ -118,6 +119,7 @@ const CMCDetails = () => {
           allowFullScreen
         ></iframe>
       </section>
+      */
 
       {/* Button to go back to Projects */}
       <section className="back-button-container">
