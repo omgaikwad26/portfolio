@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4c8971c8.css",
-    "main.js": "/static/js/main.ada225fd.js",
+    "main.js": "/static/js/main.32a216cf.js",
     "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
     "static/media/autorobot.mp4": "/static/media/autorobot.cce4e1dfcf780d95da6e.mp4",
     "static/media/robo-lidarr.png": "/static/media/robo-lidarr.fcbf6527e504edf1aa66.png",
@@ -23,17 +23,17 @@
     "static/media/vehicle-dynamics-1.png": "/static/media/vehicle-dynamics-1.8b620b175447c284f25d.png",
     "static/media/purple.png": "/static/media/purple.901ed17812b65fe139e7.png",
     "static/media/spartificial-logo.png": "/static/media/spartificial-logo.18bdbc85599278d743bf.png",
-    "static/media/OMG.pdf": "/static/media/OMG.dd7f2d5f875741b38c5e.pdf",
+    "static/media/OMG.pdf": "/static/media/OMG.1a671fd5f4a78c05d179.pdf",
     "static/media/doosan-logo.jpg": "/static/media/doosan-logo.576d786d6c5f3347ba86.jpg",
     "static/media/cmc-logo1.jpg": "/static/media/cmc-logo1.8537d660c6a6f69c518d.jpg",
     "static/media/om-profile.jpeg": "/static/media/om-profile.ad6efec75b6b7288ef6d.jpeg",
     "index.html": "/index.html",
     "main.4c8971c8.css.map": "/static/css/main.4c8971c8.css.map",
-    "main.ada225fd.js.map": "/static/js/main.ada225fd.js.map",
+    "main.32a216cf.js.map": "/static/js/main.32a216cf.js.map",
     "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4c8971c8.css",
-    "static/js/main.ada225fd.js"
+    "static/js/main.32a216cf.js"
   ]
 }
