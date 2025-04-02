@@ -5,6 +5,7 @@ import Projects from './pages/Projects';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 import AboutMe from './pages/AboutMe';
+import DrawFourierOm from "./fourier/fouriertest";
 
 import SESMAProject from './project-pages/sesma';
 import SafeDetails from './project-pages/safe';
@@ -36,6 +37,7 @@ const App = () => {
         <Route path="/resume" element={<Resume />} />
         <Route path="/AboutMe" element={<AboutMe />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/fouriertest" element={<DrawFourierOm />} />
 
       </Routes>
     </Router>

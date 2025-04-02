@@ -30,6 +30,9 @@ function Home() {
             <li className="navbar-item">
               <Link to="/contact">Contact</Link>
             </li>
+            <li className="navbar-item">
+              <Link to="/fouriertest">Fourier</Link>
+            </li>
           </ul>
         </nav>
         <div className="overlay"> 
